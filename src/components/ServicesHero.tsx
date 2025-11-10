@@ -127,7 +127,7 @@ export default function ServicesHero() {
   },
   {
     icon: Hammer,      // New Icon
-    title: "Fabrication in Construction",
+    title: "Fabrication & Extraction",
     count: "10 Services",
     color: "bg-cyan-500"
   }

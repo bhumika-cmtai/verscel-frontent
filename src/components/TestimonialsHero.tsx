@@ -2,17 +2,17 @@ import { Star, Quote, Users, Award, ThumbsUp, MessageCircle } from 'lucide-react
 
 export default function TestimonialsHero() {
   const stats = [
-    { icon: Users, value: "1000+", label: "Happy Clients" },
+    { icon: Users, value: "750+", label: "Happy Clients" },
     { icon: Star, value: "4.9/5", label: "Average Rating" },
     { icon: ThumbsUp, value: "98%", label: "Client Retention" },
     { icon: Award, value: "25+", label: "Years Experience" }
   ]
 
   const ratingBreakdown = [
-    { stars: 5, percentage: 85, count: 850 },
-    { stars: 4, percentage: 12, count: 120 },
-    { stars: 3, percentage: 2, count: 20 },
-    { stars: 2, percentage: 1, count: 10 },
+    { stars: 5, percentage: 85, count: 638 },
+    { stars: 4, percentage: 12, count: 90 }, 
+    { stars: 3, percentage: 2, count: 15 },  
+    { stars: 2, percentage: 1, count: 7 },   
     { stars: 1, percentage: 0, count: 0 }
   ]
 

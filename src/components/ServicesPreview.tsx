@@ -8,7 +8,11 @@ import {
   Cog, 
   ClipboardCheck, 
   Wrench as Maintenance,
-  Leaf
+  Leaf,
+  // 1. New icons imported for the new services
+  KanbanSquare, // For Fabrication
+  Building,     // For Commercial Construction
+  Milestone     // For Roadway Construction
 } from 'lucide-react'
 
 export default function ServicesPreview() {
@@ -17,7 +21,7 @@ export default function ServicesPreview() {
       icon: Building2,
       title: "Core Construction",
       description: "Building construction, civil engineering, masonry, and structural work for all types of projects.",
-      features: ["Residential", "Commercial", "Industrial", "Road Construction"],
+      features: ["Residential", "Commercial", "Industrial", "Structural Work"],
       color: "bg-blue-500"
     },
     {
@@ -33,6 +37,30 @@ export default function ServicesPreview() {
       description: "Mechanical, electrical, and plumbing services for complete building operations.",
       features: ["Electrical Wiring", "HVAC Systems", "Plumbing", "Fire Safety"],
       color: "bg-yellow-500"
+    },
+    // 2. New "Commercial Construction" service added
+    {
+      icon: Building,
+      title: "Commercial Construction",
+      description: "Specialized construction for commercial spaces like offices, retail stores, and warehouses.",
+      features: ["Office Buildings", "Retail Spaces", "Showrooms", "Warehouse Construction"],
+      color: "bg-rose-500"
+    },
+    // 3. New "Roadway Construction" service added
+    {
+      icon: Milestone,
+      title: "Roadway Construction",
+      description: "Comprehensive services for building robust and durable roadways, highways, and pavements.",
+      features: ["Highway Construction", "Asphalt Paving", "Concrete Roads", "Site Grading"],
+      color: "bg-lime-500"
+    },
+    // 4. New "Fabrication & Erection" service added
+    {
+      icon: KanbanSquare,
+      title: "Fabrication & Erection",
+      description: "Structural steel fabrication and on-site erection for industrial and commercial projects.",
+      features: ["Steel Fabrication", "Welding Services", "On-site Erection", "Metal Framework"],
+      color: "bg-cyan-500"
     },
     {
       icon: Paintbrush,
@@ -51,7 +79,7 @@ export default function ServicesPreview() {
     {
       icon: Cog,
       title: "Specialized Construction",
-      description: "Large-scale and specialized construction projects including industrial and infrastructure.",
+      description: "Large-scale projects including industrial sheds, bridges, and infrastructure development.",
       features: ["Industrial Sheds", "Bridges", "Metro Infrastructure", "Dams"],
       color: "bg-red-500"
     },

@@ -10,7 +10,7 @@ export default function AboutPreview() {
           <div className="space-y-6 sm:space-y-8">
             <div className="space-y-3 sm:space-y-4">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">
-                About (HCT) Hanuman Constructions & Trading
+                About Hanuman Constructions & Trading (HCT)
               </h2>
               <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
                 We are dedicated to delivering high-quality, reliable, and innovative construction solutions. 

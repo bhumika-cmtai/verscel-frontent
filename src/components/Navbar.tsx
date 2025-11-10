@@ -8,11 +8,15 @@ import { Menu, X, Phone, Mail } from 'lucide-react'
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
+  // Centralized contact info
+  const phoneNumber = '8819099919'
+  const emailAddress = 'constructionhanuman99@gmail.com'
+  const whatsappLink = `https://wa.me/${phoneNumber}`
+
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Services', href: '/services' },
-    // { name: 'Projects', href: '/projects' },
     { name: 'Gallery', href: '/gallery' },
     { name: 'Testimonials', href: '/testimonials' },
     { name: 'Contact', href: '/contact' },
@@ -20,14 +24,15 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white shadow-lg sticky top-0 z-50 w-full">
-      <div className="w-full px-2 sm:px-4 lg:px-6 xl:px-8">
+      <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 lg:h-20">
-          {/* Logo */}
-          <div className="flex items-center flex-shrink-0 ml-4">
-            <Link href="/" className="flex items-center space-x-2 lg:space-x-3">
-              <div className="relative ml-10 w-18 h-18 sm:w-24 sm:h-24 lg:w-30 lg:h-30">
+          
+          {/* Corrected Logo */}
+          <div className="flex-shrink-0">
+            <Link href="/" className="flex items-center">
+              <div className="relative w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20">
                 <Image
-                  src="/logo.png"
+                  src="/logo.jpg"
                   alt="HTC Hanuman Construction Logo"
                   fill
                   className="object-contain"
@@ -51,20 +56,30 @@ export default function Navbar() {
           </div>
 
           {/* Desktop Contact Info */}
-          <div className="hidden lg:flex items-center space-x-3 xl:space-x-4 ml-4 pl-4 border-l border-gray-200">
-            <a
-              href="tel:+919876543210"
-              className="flex items-center text-gray-600 hover:text-orange-600 transition-colors"
-            >
+          <div className="hidden lg:flex items-center space-x-4 ml-4 pl-4 border-l border-gray-200">
+            <a href={`tel:+91${phoneNumber}`} className="flex items-center text-gray-600 hover:text-orange-600 transition-colors">
               <Phone className="h-4 w-4 mr-1" />
-              <span className="text-sm xl:text-base">+91 9876543210</span>
+              <span className="text-sm xl:text-base">{`+91 ${phoneNumber}`}</span>
             </a>
-            <a
-              href="mailto:constructionhanuman99@gmail.com"
-              className="flex items-center text-gray-600 hover:text-orange-600 transition-colors"
-            >
+            <a href={`mailto:${emailAddress}`} className="flex items-center text-gray-600 hover:text-orange-600 transition-colors">
               <Mail className="h-4 w-4 mr-1" />
               <span className="text-sm xl:text-base hidden xl:inline">Email Us</span>
+            </a>
+            {/* WhatsApp Icon (PNG) for desktop - Size corrected */}
+            <a
+              href={whatsappLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center transition-opacity hover:opacity-80"
+              aria-label="Chat on WhatsApp"
+            >
+              <Image
+                src="/whatsapp-icon.png"
+                alt="WhatsApp Icon"
+                width={60} // More appropriate size
+                height={60}
+                className='md:w-[60px] h-auto '
+              />
             </a>
           </div>
 
@@ -95,19 +110,30 @@ export default function Navbar() {
               </Link>
             ))}
             <div className="pt-4 border-t border-gray-200 mt-2">
-              <a
-                href="tel:+919876543210"
-                className="flex items-center text-gray-600 hover:text-orange-600 px-3 py-2 rounded-md hover:bg-gray-50"
-              >
+              <a href={`tel:+91${phoneNumber}`} className="flex items-center text-gray-600 hover:text-orange-600 px-3 py-2 rounded-md hover:bg-gray-50">
                 <Phone className="h-4 w-4 mr-2" />
-                <span>+91 98765 43210</span>
+                <span>{`+91 ${phoneNumber}`}</span>
               </a>
-              <a
-                href="mailto:constructionhanuman99@gmail.com"
-                className="flex items-center text-gray-600 hover:text-orange-600 px-3 py-2 rounded-md hover:bg-gray-50"
-              >
+              <a href={`mailto:${emailAddress}`} className="flex items-center text-gray-600 hover:text-orange-600 px-3 py-2 rounded-md hover:bg-gray-50">
                 <Mail className="h-4 w-4 mr-2" />
-                <span className="text-sm">constructionhanuman99@gmail.com</span>
+                <span className="text-sm">{emailAddress}</span>
+              </a>
+              {/* WhatsApp Icon (PNG) for mobile - Size corrected */}
+               <a
+                href={whatsappLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md hover:bg-gray-50"
+              >
+                <div className="w-10 h-10 mr-2 flex items-center justify-center">
+                  <Image
+                    src="/whatsapp-icon.png"
+                    alt="WhatsApp Icon"
+                    width={40} 
+                    height={40}
+                  />
+                </div>
+                <span>Chat on WhatsApp</span>
               </a>
             </div>
           </div>

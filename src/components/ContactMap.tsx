@@ -114,7 +114,7 @@ export default function ContactMap() {
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900">Call Now</p>
-                    <p className="text-gray-600">+91 98765 43210</p>
+                    <p className="text-gray-600">+91 9009599919</p>
                   </div>
                 </div>
 
@@ -154,7 +154,7 @@ export default function ContactMap() {
               <div className="space-y-2 text-gray-600">
                 <p>Industrial Area, Bhilai</p>
                 <p>Chhattisgarh 490001</p>
-                <p>Phone: +91 98765 43213</p>
+                <p>Phone: +91 9009599919</p>
               </div>
             </div>
             
@@ -163,7 +163,7 @@ export default function ContactMap() {
               <div className="space-y-2 text-gray-600">
                 <p>Commercial Complex, Bilaspur</p>
                 <p>Chhattisgarh 495001</p>
-                <p>Phone: +91 98765 43214</p>
+                <p>Phone: +91 9009599919</p>
               </div>
             </div>
           </div>

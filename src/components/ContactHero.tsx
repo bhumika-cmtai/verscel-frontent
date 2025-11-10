@@ -6,7 +6,7 @@ export default function ContactHero() {
       icon: Phone,
       title: "Call Us",
       description: "Speak directly with our project manager",
-      contact: "+91 98765 43210", 
+      contact: "+91 9009599919", 
       action: "Call Now",
       color: "bg-green-500"
     },
@@ -40,7 +40,7 @@ export default function ContactHero() {
     <section className="relative py-20 bg-gradient-to-br from-gray-900 to-gray-800 text-white overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-0 left-0 w-full h-full bg-[url('data:image/svg+xml,%3Csvg%20width%3D%2260%22%20height%3D%2260%22%20viewBox%3D%220%200%2060%2060%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cg%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.1%22%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2230%22%20r%3D%222%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')]"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-[url('data:image/svg+xml,%3Csvg%20width%3D%2260%22%20height%3D%2260%22%20viewBox%3D%220%200%2060%2060%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cg%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.1%22%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2230%22%20r%3D%222%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')]"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -122,7 +122,7 @@ export default function ContactHero() {
                 <div>
                   <h4 className="text-lg font-semibold text-white">Emergency Contact</h4>
                   <p className="text-orange-100">Available 24/7 for urgent matters</p>
-                  <p className="text-white font-semibold">+91 98765 43210</p>
+                  <p className="text-white font-semibold">+91 9009599919</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">

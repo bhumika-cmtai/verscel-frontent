@@ -6,7 +6,7 @@ export default function ContactInfo() {
       icon: Phone,
       title: "Phone Numbers",
       details: [
-        { label: "Main Office", value: "+91 98765 43210" },
+        { label: "Main Office", value: "+91 9009599919" },
         { label: "Emergency", value: "+91 98765 43211" },
         { label: "WhatsApp", value: "+91 98765 43212" }
       ],

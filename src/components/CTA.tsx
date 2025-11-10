@@ -27,7 +27,7 @@ export default function CTA() {
                 href="tel:+919876543210"
                 className="text-white font-semibold hover:text-orange-200 transition-colors"
               >
-                +91 98765 43210
+                +91 9009599919
               </a>
             </div>
 
