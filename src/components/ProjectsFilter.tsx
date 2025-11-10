@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Building2, Home, Factory, School, Calendar, MapPin } from 'lucide-react'
+import { Building2, Home, Factory, School, Calendar, MapPin, Folder } from 'lucide-react'
 
 export default function ProjectsFilter() {
   const [activeFilter, setActiveFilter] = useState('all')
@@ -11,7 +11,8 @@ export default function ProjectsFilter() {
     { id: 'residential', name: 'Residential', count: 200, icon: Home },
     { id: 'commercial', name: 'Commercial', count: 150, icon: Building2 },
     { id: 'industrial', name: 'Industrial', count: 100, icon: Factory },
-    { id: 'institutional', name: 'Institutional', count: 50, icon: School }
+    { id: 'institutional', name: 'Institutional', count: 50, icon: School },
+    { id: 'other', name: 'Other Projects', count: 30, icon: Folder }
   ]
 
   const projectStages = [

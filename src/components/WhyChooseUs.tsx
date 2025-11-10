@@ -124,7 +124,7 @@ export default function WhyChooseUs() {
               className="inline-flex items-center justify-center px-8 py-4 bg-white text-orange-600 font-semibold rounded-lg hover:bg-orange-50 transition-colors duration-200 group"
             >
               <Phone className="mr-2 h-5 w-5" />
-              Call Now: +91 98765 43210
+              Call Now: +91 9009599919
             </a>
             
             <a

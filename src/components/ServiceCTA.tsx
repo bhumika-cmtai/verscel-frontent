@@ -43,7 +43,7 @@ export default function ServiceCTA() {
                       href="tel:+919876543210"
                       className="text-white font-semibold hover:text-orange-200 transition-colors"
                     >
-                      +91 98765 43210
+                      +91 9009599919
                     </a>
                   </div>
                 </div>
@@ -149,7 +149,7 @@ export default function ServiceCTA() {
                 className="inline-flex items-center justify-center px-8 py-4 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-400 transition-colors duration-200"
               >
                 <Phone className="mr-2 h-5 w-5" />
-                Call Now: +91 98765 43210
+                Call Now: +91 9009599919
               </a>
               <a
                 href="mailto:constructionhanuman99@gmail.com"

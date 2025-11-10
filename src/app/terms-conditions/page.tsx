@@ -68,7 +68,7 @@ export default function TermsAndConditionsPage() {
               <br />
               Email: constructionhanuman99@gmail.com
               <br />
-              Phone: +91 98765 43210
+              Phone: +91 9009599919
             </p>
           </div>
         </div>
