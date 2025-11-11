@@ -69,9 +69,9 @@ export default function Hero() {
 
       {/* 1. Background Logo Layer: Centered with low opacity */}
       <div className="absolute inset-0 z-10 flex items-center justify-center pointer-events-none">
-        <div className="relative w-80 h-80 sm:w-72 sm:h-72 opacity-80">
+        <div className="relative w-60 h-60 sm:w-96 sm:h-96 opacity-95">
           <Image
-            src="/logo-removebg-preview.png"
+            src="/hero-logo.png"
             alt="Hanuman Builders Background Logo"
             fill
             className="object-contain"
