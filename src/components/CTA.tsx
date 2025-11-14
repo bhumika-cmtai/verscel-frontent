@@ -3,7 +3,7 @@ import { Phone, Mail, MessageCircle, ArrowRight } from 'lucide-react'
 
 export default function CTA() {
   return (
-    <section className="py-20 bg-gradient-to-br from-orange-600 to-orange-700">
+    <section className="py-20 bg-gradient-to-br from-blue-600 to-blue-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
@@ -40,10 +40,10 @@ export default function CTA() {
                 Get detailed project information
               </p>
               <a
-                href="mailto:constructionhanuman99@gmail.com"
+                href="mailto:Pankaj@hanumanbuilder.com"
                 className="text-white font-semibold hover:text-orange-200 transition-colors"
               >
-                constructionhanuman99@gmail.com
+                Pankaj@hanumanbuilder.com
               </a>
             </div>
 

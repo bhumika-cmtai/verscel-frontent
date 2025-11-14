@@ -24,10 +24,6 @@ export default function AboutHero() {
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
                 About (HCT)
               </h1>
-              {/* <p className="text-xl text-gray-300 leading-relaxed">
-                Building excellence since day one, we are dedicated to delivering high-quality, 
-                reliable, and innovative construction solutions that meet the evolving needs of our clients.
-              </p> */}
             </div>
 
             <div className="grid grid-cols-2 gap-6">
@@ -41,23 +37,17 @@ export default function AboutHero() {
                 </div>
               ))}
             </div>
-
-            {/* <div className="bg-orange-600 bg-opacity-20 backdrop-blur-sm rounded-xl p-6 border border-orange-500 border-opacity-30">
-              <h3 className="text-xl font-semibold text-white mb-3">Our Commitment</h3>
-              <p className="text-gray-200 leading-relaxed">
-                Built on the pillars of honesty, innovation, and customer-centricity, we take pride in 
-                providing exceptional services that create lasting experiences and world-class projects.
-              </p>
-            </div> */}
           </div>
 
           {/* Image */}
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <Image
-                src="/hanumanbestsecond.png"
-                alt="Hanuman Constructions Team"
-                className="w-full h-96 object-cover"
+            <Image
+              src="/hanumanbestsecond.png"
+              width={600}
+              height={400}
+              alt="Construction site with modern equipment"
+              className="w-full h-96 object-cover rounded-2xl shadow-lg"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
               <div className="absolute bottom-6 left-6 text-white">

@@ -51,7 +51,7 @@ export default function ProjectsFilter() {
                 onClick={() => setActiveFilter(filter.id)}
                 className={`flex items-center space-x-3 px-6 py-3 rounded-full font-medium transition-all duration-200 ${
                   activeFilter === filter.id
-                    ? 'bg-orange-600 text-white shadow-lg'
+                    ? 'bg-blue-700 text-white shadow-lg'
                     : 'bg-white text-gray-600 hover:bg-orange-50 hover:text-orange-600 border border-gray-200'
                 }`}
               >

@@ -93,7 +93,7 @@ export default function ProjectGallery() {
             onClick={() => handlePageChange(number)}
             className={`px-4 py-2 rounded-md text-sm font-medium transition ${
               currentPage === number
-                ? 'bg-orange-600 text-white shadow-md'
+                ? 'bg-blue-700 text-white shadow-md'
                 : 'bg-white border border-gray-300 text-gray-700 hover:bg-gray-50'
             }`}
           >
@@ -133,7 +133,7 @@ export default function ProjectGallery() {
               onClick={() => setActiveFilter(filter.id)}
               className={`flex items-center space-x-2 px-5 py-2.5 rounded-full font-semibold text-sm transition-all duration-300 ${
                 activeFilter === filter.id
-                  ? 'bg-orange-600 text-white shadow-lg scale-105'
+                  ? 'bg-blue-700 text-white shadow-lg scale-105'
                   : 'bg-white text-gray-700 hover:bg-orange-50 hover:text-orange-600 border border-gray-200'
               }`}
             >

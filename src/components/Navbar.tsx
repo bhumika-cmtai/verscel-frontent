@@ -10,7 +10,7 @@ export default function Navbar() {
 
   // Centralized contact info
   const phoneNumber = '8819099919'
-  const emailAddress = 'constructionhanuman99@gmail.com'
+  const emailAddress = 'Pankaj@hanumanbuilder.com'
   const whatsappLink = `https://wa.me/${phoneNumber}`
 
   const navigation = [

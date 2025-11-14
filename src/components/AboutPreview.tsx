@@ -71,13 +71,13 @@ export default function AboutPreview() {
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <Link
                 href="/about"
-                className="inline-flex items-center justify-center px-6 sm:px-8 py-3 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700 transition-colors duration-200 text-sm sm:text-base"
+                className="inline-flex items-center justify-center px-6 sm:px-8 py-3 bg-blue-700 text-white font-semibold rounded-lg hover:bg-blue-800 transition-colors duration-200 text-sm sm:text-base"
               >
                 Learn More About Us
               </Link>
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center px-6 sm:px-8 py-3 border-2 border-orange-600 text-orange-600 font-semibold rounded-lg hover:bg-orange-600 hover:text-white transition-colors duration-200 text-sm sm:text-base"
+                className="inline-flex items-center justify-center px-6 sm:px-8 py-3 border-2 border-orange-600 text-orange-600 font-semibold rounded-lg hover:bg-blue-700 hover:text-white transition-colors duration-200 text-sm sm:text-base"
               >
                 Get Free Consultation
               </Link>

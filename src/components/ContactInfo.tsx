@@ -16,7 +16,7 @@ export default function ContactInfo() {
       icon: Mail,
       title: "Email Addresses",
       details: [
-        { label: "General Inquiry", value: "constructionhanuman99@gmail.com" },
+        { label: "General Inquiry", value: "Pankaj@hanumanbuilder.com" },
         { label: "Projects", value: "projects@hanumanconstructions.com" },
         { label: "Support", value: "support@hanumanconstructions.com" }
       ],
@@ -109,7 +109,7 @@ export default function ContactInfo() {
         </div>
 
         {/* Response Time Promise */}
-        <div className="bg-gradient-to-r from-orange-600 to-orange-700 rounded-2xl p-8 text-white text-center">
+        <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 text-white text-center">
           <h3 className="text-2xl font-bold mb-4">
             Our Response Promise
           </h3>

@@ -105,7 +105,7 @@ export default function ProjectsPreview() {
               key={index}
               className={`px-6 py-3 rounded-full font-medium transition-all duration-200 ${
                 category.active
-                  ? 'bg-orange-600 text-white shadow-lg'
+                  ? 'bg-blue-700 text-white shadow-lg'
                   : 'bg-white text-gray-600 hover:bg-orange-50 hover:text-orange-600 border border-gray-200'
               }`}
             >
@@ -196,7 +196,7 @@ export default function ProjectsPreview() {
         <div className="text-center">
           <Link
             href="/projects"
-            className="inline-flex items-center justify-center px-8 py-4 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700 transition-colors duration-200 group"
+            className="inline-flex items-center justify-center px-8 py-4 bg-blue-700 text-white font-semibold rounded-lg hover:bg-blue-800 transition-colors duration-200 group"
           >
             View All Projects
             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />

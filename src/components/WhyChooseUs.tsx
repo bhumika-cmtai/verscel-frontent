@@ -68,7 +68,7 @@ export default function WhyChooseUs() {
           {reasons.map((reason, index) => (
             <div
               key={index}
-              className="group bg-gray-50 rounded-2xl p-8 hover:bg-orange-50 transition-all duration-300 border border-gray-100 hover:border-orange-200"
+              className="group bg-gray-50 rounded-2xl p-8 hover:bg-blue-50 transition-all duration-300 border border-gray-100 hover:border-blue-200"
             >
               <div className="flex items-center space-x-4 mb-6">
                 <div className="w-16 h-16 bg-orange-100 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
@@ -93,7 +93,7 @@ export default function WhyChooseUs() {
         </div>
 
         {/* Additional Benefits */}
-        <div className="bg-gradient-to-r from-orange-50 to-orange-100 rounded-2xl p-8 mb-16">
+        <div className="bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl p-8 mb-16">
           <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">
             Additional Benefits
           </h3>
@@ -109,7 +109,7 @@ export default function WhyChooseUs() {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-gradient-to-r from-orange-600 to-orange-700 rounded-2xl p-8 text-white text-center">
+        <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 text-white text-center">
           <h3 className="text-3xl font-bold mb-4">
             Ready to Start Your Project?
           </h3>
@@ -128,7 +128,7 @@ export default function WhyChooseUs() {
             </a>
             
             <a
-              href="mailto:constructionhanuman99@gmail.com"
+              href="mailto:Pankaj@hanumanbuilder.com"
               className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-orange-600 transition-colors duration-200 group"
             >
               <Mail className="mr-2 h-5 w-5" />

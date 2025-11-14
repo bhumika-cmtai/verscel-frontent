@@ -102,7 +102,7 @@ export default function ContactMap() {
               </div>
             </div>
 
-            <div className="bg-orange-50 rounded-2xl p-8">
+            <div className="bg-blue-50 rounded-2xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
                 Quick Contact
               </h3>
@@ -124,12 +124,12 @@ export default function ContactMap() {
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900">Email Us</p>
-                    <p className="text-gray-600">constructionhanuman99@gmail.com</p>
+                    <p className="text-gray-600">Pankaj@hanumanbuilder.com</p>
                   </div>
                 </div>
               </div>
 
-              <div className="mt-6 pt-6 border-t border-orange-200">
+              <div className="mt-6 pt-6 border-t border-blue-200">
                 <h4 className="font-semibold text-gray-900 mb-3">Nearby Landmarks</h4>
                 <ul className="text-gray-600 space-y-1 text-sm list-disc list-inside">
                   <li>Ambuja Mall (100 meters)</li>

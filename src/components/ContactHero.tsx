@@ -14,7 +14,7 @@ export default function ContactHero() {
       icon: Mail,
       title: "Email Us",
       description: "Send us your project details",
-      contact: "constructionhanuman99@gmail.com",
+      contact: "Pankaj@hanumanbuilder.com",
       action: "Send Email",
       color: "bg-blue-500"
     },
@@ -132,7 +132,7 @@ export default function ContactHero() {
                 <div>
                   <h4 className="text-lg font-semibold text-white">Email Response</h4>
                   <p className="text-orange-100">We respond within 2 hours</p>
-                  <p className="text-white font-semibold break-all">constructionhanuman99@gmail.com</p>
+                  <p className="text-white font-semibold break-all">Pankaj@hanumanbuilder.com</p>
                 </div>
               </div>
             </div>

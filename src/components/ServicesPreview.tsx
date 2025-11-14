@@ -141,7 +141,7 @@ export default function ServicesPreview() {
                 <div className="space-y-2">
                   {service.features.map((feature, featureIndex) => (
                     <div key={featureIndex} className="flex items-center space-x-2">
-                      <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
+                      <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
                       <span className="text-sm text-gray-600">{feature}</span>
                     </div>
                   ))}
@@ -164,7 +164,7 @@ export default function ServicesPreview() {
         </div>
 
         <div className="text-center">
-          <div className="bg-gradient-to-r from-orange-50 to-orange-100 rounded-2xl p-8 max-w-4xl mx-auto">
+          <div className="bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl p-8 max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
               Need a Custom Solution?
             </h3>
@@ -175,13 +175,13 @@ export default function ServicesPreview() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/services"
-                className="inline-flex items-center justify-center px-8 py-3 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700 transition-colors duration-200"
+                className="inline-flex items-center justify-center px-8 py-3 bg-blue-700 text-white font-semibold rounded-lg hover:bg-blue-800 transition-colors duration-200"
               >
                 View All Services
               </Link>
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center px-8 py-3 border-2 border-orange-600 text-orange-600 font-semibold rounded-lg hover:bg-orange-600 hover:text-white transition-colors duration-200"
+                className="inline-flex items-center justify-center px-8 py-3 border-2 border-orange-600 text-orange-600 font-semibold rounded-lg hover:bg-blue-700 hover:text-white transition-colors duration-200"
               >
                 Get Free Quote
               </Link>

@@ -121,7 +121,7 @@ export default function TeamSection() {
         </div>
 
         {/* Team Stats */}
-        <div className="bg-gradient-to-r from-orange-600 to-orange-700 rounded-2xl p-8 text-white">
+        <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 text-white">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-3xl font-bold mb-2">50+</div>

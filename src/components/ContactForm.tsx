@@ -275,7 +275,7 @@ ${formData.message}
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-orange-600 text-white py-4 px-6 rounded-lg font-semibold hover:bg-orange-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 flex items-center justify-center"
+                className="w-full bg-blue-700 text-white py-4 px-6 rounded-lg font-semibold hover:bg-blue-800 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 flex items-center justify-center"
               >
                 {isSubmitting ? (
                   <>
@@ -294,7 +294,7 @@ ${formData.message}
 
           {/* Contact Information */}
           <div className="space-y-8">
-            <div className="bg-orange-50 rounded-2xl p-8">
+            <div className="bg-blue-50 rounded-2xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
                 Why Choose Us?
               </h3>
@@ -358,7 +358,7 @@ ${formData.message}
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Email</h4>
-                    <p className="text-gray-600">constructionhanuman99@gmail.com</p>
+                    <p className="text-gray-600">Pankaj@hanumanbuilder.com</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">

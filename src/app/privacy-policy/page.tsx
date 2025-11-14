@@ -76,7 +76,7 @@ export default function PrivacyPolicyPage() {
               <br />
               Near Ambuja Mall, Vidhansabha Road, Saddu, Raipur (C.G.)
               <br />
-              Email: constructionhanuman99@gmail.com
+              Email: Pankaj@hanumanbuilder.com
               <br />
               Phone: +91 9009599919
             </p>
