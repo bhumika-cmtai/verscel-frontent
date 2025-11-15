@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { Phone, Mail, MapPin, Clock } from 'lucide-react'
+import { Phone, Mail, MapPin, Clock, Siren } from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -109,6 +109,12 @@ export default function Footer() {
                 </a>
                 <a href="tel:+918819099919" className="text-gray-300 hover:text-orange-500 transition-colors text-xs sm:text-sm">
                   +91 8819099919
+                </a>
+              </div>
+              <div className="flex items-center space-x-2 sm:space-x-3">
+                <Siren className="h-4 w-4 sm:h-5 sm:w-5 text-orange-500 flex-shrink-0" />
+                <a href="tel:+919575880007" className="text-gray-300 hover:text-orange-500 transition-colors text-xs sm:text-sm">
+                  +91 9575880007
                 </a>
               </div>
               <div className="flex items-center space-x-2 sm:space-x-3">

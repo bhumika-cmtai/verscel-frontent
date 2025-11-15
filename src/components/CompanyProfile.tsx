@@ -119,67 +119,7 @@ export default function CompanyProfile() {
               </div>
             </div>
 
-            {/* Team Member 2 - Satyam Mishra */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-              <div className="flex justify-center pt-8 px-8">
-                <Image
-                  src="/satyam.jpg"
-                  width={300}
-                  height={300}
-                  alt="Satyam Mishra - Site Incharge & Quality Consultant"
-                  className="w-full h-auto rounded-xl shadow-md object-cover"
-                />
-              </div>
-              <div className="p-6 text-center">
-                <h4 className="text-xl font-bold text-gray-900 mb-2">Satyam Mishra</h4>
-                <p className="text-orange-600 font-semibold text-sm mb-3">Site Incharge & Quality Consultant</p>
-                <p className="text-gray-600 text-xs">
-                  Expert in ensuring construction quality standards and site supervision.
-                </p>
-              </div>
-            </div>
-
-            {/* Team Member 3 - Vikash Singh */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-              <div className="flex justify-center pt-8 px-8">
-                <Image
-                  src="/vikash.jpg"
-                  width={300}
-                  height={300}
-                  alt="Vikash Singh - Engineer & Site Management"
-                  className="w-full h-auto rounded-xl shadow-md object-cover"
-                />
-              </div>
-              <div className="p-6 text-center">
-                <h4 className="text-xl font-bold text-gray-900 mb-2">Vikash Singh</h4>
-                <p className="text-blue-600 font-semibold text-sm mb-3">Engineer & Site Management</p>
-                <p className="text-gray-600 text-xs">
-                  Specialized in project engineering and efficient execution management.
-                </p>
-              </div>
-            </div>
-
-            {/* Team Member 4 - Sachindar Paswan */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-              <div className="flex justify-center pt-8 px-8">
-                <Image
-                  src="/sachindar.jpg"
-                  width={300}
-                  height={300}
-                  alt="Sachindar Paswan - Director Fabrication"
-                  className="w-full h-auto rounded-xl shadow-md object-cover"
-                />
-              </div>
-              <div className="p-6 text-center">
-                <h4 className="text-xl font-bold text-gray-900 mb-2">Sachindar Paswan</h4>
-                <p className="text-purple-600 font-semibold text-sm mb-3">Director - Fabrication & Consultant</p>
-                <p className="text-gray-600 text-xs">
-                  Leading plant shed department and fabrication operations with expertise.
-                </p>
-              </div>
-            </div>
-
-            {/* Team Member 5 - Rajendra Shukla */}
+            {/* Team Member 2 - Rajendra Shukla */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="flex justify-center pt-8 px-8">
                 <Image
@@ -199,27 +139,27 @@ export default function CompanyProfile() {
               </div>
             </div>
 
-            {/* Team Member 6 - Maya Verma */}
+            {/* Team Member 3 - Sachindar Paswan */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="flex justify-center pt-8 px-8">
                 <Image
-                  src="/maya.jpg"
+                  src="/sachindar.jpg"
                   width={300}
                   height={300}
-                  alt="Maya Verma - Property & Marketing Manager"
+                  alt="Sachindar Paswan - Director Fabrication"
                   className="w-full h-auto rounded-xl shadow-md object-cover"
                 />
               </div>
               <div className="p-6 text-center">
-                <h4 className="text-xl font-bold text-gray-900 mb-2">Maya Verma</h4>
-                <p className="text-pink-600 font-semibold text-sm mb-3">Property, Marketing & Customer Relations Manager</p>
+                <h4 className="text-xl font-bold text-gray-900 mb-2">Sachindar Paswan</h4>
+                <p className="text-purple-600 font-semibold text-sm mb-3">Director - Fabrication & Consultant</p>
                 <p className="text-gray-600 text-xs">
-                  Building strong customer relationships and driving marketing initiatives.
+                  Leading plant shed department and fabrication operations with expertise.
                 </p>
               </div>
             </div>
 
-            {/* Team Member 7 - Deepak Shandilya */}
+            {/* Team Member 4 - Deepak Shandilya */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="flex justify-center pt-8 px-8">
                 <Image
@@ -239,7 +179,7 @@ export default function CompanyProfile() {
               </div>
             </div>
 
-            {/* Team Member 8 - Eng. Deepshikha Gupta */}
+            {/* Team Member 5 - Eng. Deepshikha Gupta */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="flex justify-center pt-8 px-8">
                 <Image
@@ -258,10 +198,70 @@ export default function CompanyProfile() {
                 </p>
               </div>
             </div>
+
+            {/* Team Member 6 - Vikash Singh */}
+            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+              <div className="flex justify-center pt-8 px-8">
+                <Image
+                  src="/vikash.jpg"
+                  width={300}
+                  height={300}
+                  alt="Vikash Singh - Engineer & Site Management"
+                  className="w-full h-auto rounded-xl shadow-md object-cover"
+                />
+              </div>
+              <div className="p-6 text-center">
+                <h4 className="text-xl font-bold text-gray-900 mb-2">Vikash Singh</h4>
+                <p className="text-blue-600 font-semibold text-sm mb-3">Engineer & Site Management</p>
+                <p className="text-gray-600 text-xs">
+                  Specialized in project engineering and efficient execution management.
+                </p>
+              </div>
+            </div>
+
+            {/* Team Member 7 - Maya Verma */}
+            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+              <div className="flex justify-center pt-8 px-8">
+                <Image
+                  src="/maya.jpg"
+                  width={300}
+                  height={300}
+                  alt="Maya Verma - Property & Marketing Manager"
+                  className="w-full h-auto rounded-xl shadow-md object-cover"
+                />
+              </div>
+              <div className="p-6 text-center">
+                <h4 className="text-xl font-bold text-gray-900 mb-2">Maya Verma</h4>
+                <p className="text-pink-600 font-semibold text-sm mb-3">Property, Marketing & Customer Relations Manager</p>
+                <p className="text-gray-600 text-xs">
+                  Building strong customer relationships and driving marketing initiatives.
+                </p>
+              </div>
+            </div>
+
+            {/* Team Member 8 - Satyam Mishra */}
+            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+              <div className="flex justify-center pt-8 px-8">
+                <Image
+                  src="/satyam.jpg"
+                  width={300}
+                  height={300}
+                  alt="Satyam Mishra - Site Incharge & Quality Consultant"
+                  className="w-full h-auto rounded-xl shadow-md object-cover"
+                />
+              </div>
+              <div className="p-6 text-center">
+                <h4 className="text-xl font-bold text-gray-900 mb-2">Satyam Mishra</h4>
+                <p className="text-orange-600 font-semibold text-sm mb-3">Site Incharge & Quality Consultant</p>
+                <p className="text-gray-600 text-xs">
+                  Expert in ensuring construction quality standards and site supervision.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
-        {/* Timeline */}
+        {/* Timeline */} 
         <div className="space-y-8">
           <h3 className="text-3xl font-bold text-gray-900 text-center mb-12">Our Journey</h3>
           <div className="relative">
