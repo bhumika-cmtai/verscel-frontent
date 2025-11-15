@@ -12,7 +12,7 @@ export default function TestimonialsHero() {
     { stars: 5, percentage: 85, count: 638 },
     { stars: 4, percentage: 12, count: 90 }, 
     { stars: 3, percentage: 2, count: 15 },  
-    { stars: 2, percentage: 1, count: 7 },   
+    { stars: 2, percentage: 1, count: 7 },    
     { stars: 1, percentage: 0, count: 0 }
   ]
 
